@@ -1,0 +1,12 @@
+dagster
+dagster-cloud
+duckdb
+sqlalchemy
+pyodbc
+python-dotenv
+nrgpy
+pymssql
+
+[dev]
+dagster-webserver
+pytest

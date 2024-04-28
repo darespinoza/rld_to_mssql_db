@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  # SQLSERVER
+  sqlserver_test:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    restart: always
+    container_name: sqlserver_test
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Admin321
+    ports:
+      - "1434:1433"
+    volumes:
+      - sqls-data:/var/opt/mssql/data
+  
+volumes:
+  sqls-data:

@@ -1,0 +1,7 @@
+dagster_data/
+duckdb_data/
+rld_to_mssql/__pycache__/
+rld_to_mssql_tools/__pycache__/
+iom_data/
+RLD_INPUT/
+TXT_OUTPUT/

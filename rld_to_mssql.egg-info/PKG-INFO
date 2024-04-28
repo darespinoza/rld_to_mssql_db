@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rld_to_mssql
+Version: 0.0.0
+Requires-Dist: dagster
+Requires-Dist: dagster-cloud
+Requires-Dist: duckdb
+Requires-Dist: sqlalchemy
+Requires-Dist: pyodbc
+Requires-Dist: python-dotenv
+Requires-Dist: nrgpy
+Requires-Dist: pymssql
+Provides-Extra: dev
+Requires-Dist: dagster-webserver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
